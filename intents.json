@@ -1,0 +1,364 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "how are you",
+        "what's up"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Ready to learn something new?",
+        "Hey! What would you like to know?",
+        "Welcome! Ask me anything about AI, Python, or careers.",
+        "Good to see you! How can I assist you?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "catch you later",
+        "talk to you later",
+        "have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Happy learning.",
+        "See you later. Keep practicing!",
+        "Take care and have a productive day.",
+        "Bye! Come back if you have more questions.",
+        "Wishing you success in your learning journey."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thanks a lot",
+        "appreciate it",
+        "many thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help.",
+        "Happy to assist.",
+        "Anytime! Feel free to ask more questions.",
+        "My pleasure."
+      ]
+    },
+
+    {
+      "tag": "ai_basics",
+      "patterns": [
+        "what is ai",
+        "what is artificial intelligence",
+        "explain ai",
+        "define ai",
+        "ai basics",
+        "tell me about ai"
+      ],
+      "responses": [
+        "Artificial Intelligence enables machines to perform tasks that normally require human intelligence.",
+        "AI involves creating systems that can learn, reason, and make decisions.",
+        "AI powers technologies such as chatbots, recommendation systems, and self-driving cars.",
+        "Artificial Intelligence is a field focused on making machines act intelligently.",
+        "AI helps computers solve problems and automate complex tasks."
+      ]
+    },
+
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what is machine learning",
+        "explain machine learning",
+        "ml basics",
+        "tell me about machine learning",
+        "define machine learning",
+        "how does machine learning work"
+      ],
+      "responses": [
+        "Machine Learning allows systems to learn patterns from data.",
+        "ML is a subset of AI that improves performance through experience.",
+        "Machine Learning models learn from historical data to make predictions.",
+        "ML algorithms can be supervised, unsupervised, or reinforcement-based.",
+        "Machine Learning helps computers make decisions without explicit programming."
+      ]
+    },
+
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "what is deep learning",
+        "explain deep learning",
+        "neural networks",
+        "deep learning basics",
+        "tell me about deep learning"
+      ],
+      "responses": [
+        "Deep Learning uses neural networks with multiple layers.",
+        "Deep Learning is widely used in image recognition and NLP.",
+        "Neural networks learn hierarchical representations of data.",
+        "Deep Learning powers technologies such as voice assistants and computer vision.",
+        "Deep Learning is a specialized area within Machine Learning."
+      ]
+    },
+
+    {
+      "tag": "python_help",
+      "patterns": [
+        "what is python",
+        "python basics",
+        "learn python",
+        "python programming",
+        "why python",
+        "is python easy"
+      ],
+      "responses": [
+        "Python is a beginner-friendly programming language used in many domains.",
+        "Python is popular because of its readability and rich ecosystem.",
+        "Python is widely used in AI, web development, and automation.",
+        "Learning Python is an excellent first step for software development.",
+        "Python's simplicity makes it ideal for beginners."
+      ]
+    },
+
+    {
+      "tag": "data_science",
+      "patterns": [
+        "what is data science",
+        "explain data science",
+        "data science basics",
+        "career in data science",
+        "tell me about data science"
+      ],
+      "responses": [
+        "Data Science involves extracting insights from data.",
+        "Data Scientists use statistics, programming, and domain knowledge.",
+        "Data Science helps organizations make data-driven decisions.",
+        "Data analysis and visualization are important parts of Data Science.",
+        "Data Science combines machine learning with statistical techniques."
+      ]
+    },
+
+    {
+      "tag": "nlp",
+      "patterns": [
+        "what is nlp",
+        "natural language processing",
+        "explain nlp",
+        "nlp basics",
+        "tell me about nlp"
+      ],
+      "responses": [
+        "Natural Language Processing helps computers understand human language.",
+        "NLP is used in chatbots, translation systems, and sentiment analysis.",
+        "Tokenization and lemmatization are common NLP techniques.",
+        "NLP bridges the gap between human communication and computers.",
+        "Modern NLP powers virtual assistants and conversational AI."
+      ]
+    },
+
+    {
+      "tag": "project_ideas",
+      "patterns": [
+        "project ideas",
+        "mini project ideas",
+        "suggest a project",
+        "ai project ideas",
+        "machine learning projects"
+      ],
+      "responses": [
+        "You can build an AI chatbot, recommendation system, or resume analyzer.",
+        "Try creating a sentiment analysis application using NLP.",
+        "A student management system is a good full-stack project.",
+        "Consider building a fake news detection system.",
+        "Real-world problem-solving projects stand out in interviews."
+      ]
+    },
+
+    {
+      "tag": "internship_guidance",
+      "patterns": [
+        "how to get internship",
+        "internship tips",
+        "internship guidance",
+        "how to prepare for internship",
+        "getting internship"
+      ],
+      "responses": [
+        "Build practical projects and showcase them on GitHub.",
+        "Focus on Python, SQL, and problem-solving skills.",
+        "Internships often value projects more than certificates.",
+        "Keep improving your portfolio and resume.",
+        "Practice explaining your projects clearly."
+      ]
+    },
+
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "career advice",
+        "career guidance",
+        "career roadmap",
+        "future career",
+        "job opportunities"
+      ],
+      "responses": [
+        "Identify your interests and build skills consistently.",
+        "Focus on both technical and communication skills.",
+        "Continuous learning is important in technology careers.",
+        "Build projects that demonstrate your abilities.",
+        "A strong portfolio can help you stand out."
+      ]
+    },
+
+    {
+      "tag": "web_development",
+      "patterns": [
+        "what is web development",
+        "frontend vs backend",
+        "html css javascript ",
+        "web development roadmap",
+        "learn web development",
+        "js"
+      ],
+      "responses": [
+        "Web development includes frontend and backend technologies.",
+        "HTML, CSS, and JavaScript form the foundation of web development.",
+        "Backend frameworks like Flask handle application logic.",
+        "Frontend focuses on user experience and interface design.",
+        "Full-stack developers work on both frontend and backend systems."
+      ]
+    },
+
+    {
+      "tag": "flask",
+      "patterns": [
+        "what is flask",
+        "flask framework",
+        "learn flask",
+        "flask tutorial",
+        "explain flask"
+      ],
+      "responses": [
+        "Flask is a lightweight Python web framework.",
+        "Flask is commonly used for APIs and web applications.",
+        "Flask provides flexibility and simplicity for developers.",
+        "Flask follows a minimalistic design philosophy.",
+        "Flask is popular for AI and machine learning web projects."
+      ]
+    },
+
+    {
+      "tag": "debugging",
+      "patterns": [
+        "debugging",
+        "fix my code",
+        "python error",
+        "syntax error",
+        "code not working"
+      ],
+      "responses": [
+        "Read error messages carefully and identify the failing line.",
+        "Use print statements or a debugger to inspect variables.",
+        "Break problems into smaller parts when debugging.",
+        "Check imports, syntax, and indentation first.",
+        "Debugging is a valuable skill that improves with practice."
+      ]
+    },
+
+    {
+      "tag": "github",
+      "patterns": [
+        "what is github",
+        "github help",
+        "git and github",
+        "learn github",
+        "version control"
+      ],
+      "responses": [
+        "GitHub helps developers manage and share code.",
+        "GitHub repositories are useful for showcasing projects.",
+        "Version control helps track code changes efficiently.",
+        "GitHub is widely used for collaboration in software development.",
+        "Maintaining a GitHub portfolio can strengthen your resume."
+      ]
+    },
+
+    {
+      "tag": "interview_preparation",
+      "patterns": [
+        "interview tips",
+        "prepare for interview",
+        "technical interview",
+        "placement preparation",
+        "job interview"
+      ],
+      "responses": [
+        "Practice explaining your projects clearly and confidently.",
+        "Review core concepts and solve coding problems regularly.",
+        "Mock interviews can help improve confidence.",
+        "Employers value both technical and communication skills.",
+        "Focus on understanding concepts rather than memorizing answers."
+      ]
+    },
+
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "i feel stuck",
+        "i am demotivated",
+        "need motivation",
+        "learning is hard"
+      ],
+      "responses": [
+        "Every expert was once a beginner.",
+        "Consistency beats intensity in the long run.",
+        "Small daily improvements lead to significant growth.",
+        "Learning takes time, so keep moving forward.",
+        "Progress matters more than perfection."
+      ]
+    },
+
+    {
+      "tag": "chatbot_working",
+      "patterns": [
+        "how do you work",
+        "how does chatbot work",
+        "what is tfidf",
+        "what is cosine similarity",
+        "how are responses generated"
+      ],
+      "responses": [
+        "I use NLP techniques such as tokenization and lemmatization.",
+        "User input is converted into TF-IDF vectors and compared using cosine similarity.",
+        "I identify the closest matching intent and return a predefined response.",
+        "My responses are selected based on intent classification.",
+        "This chatbot is rule-based and designed for educational purposes."
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understood that. Could you rephrase your question?",
+        "I may not have information about that topic yet.",
+        "Try asking something related to AI, Python, Machine Learning, or careers.",
+        "Could you provide more details about your question?",
+        "I'm still learning. Please try a different question."
+      ]
+    }
+  ]
+}
